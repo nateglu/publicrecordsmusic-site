@@ -1,0 +1,6 @@
+[2026-09-15T06:56:18.640Z] GET https://search.google.com/search-console/welcome → 302 (312ms, ?B)
+[2026-09-15T06:56:18.952Z] GET https://accounts.google.com/ServiceLogin?service=sitemaps&passive=1209600&continue=https://search.google.com/search-console/welcome&followup=https://search.google.com/search-console/welcome → pending (?ms, ?B)
+[2026-09-15T06:56:19.145Z] GET https://accounts.google.com/v3/signin/identifier?continue=https://search.google.com/search-console/welcome&followup=https://search.google.com/search-console/welcome&passive=1209600&service=sitemaps&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-2028654544:1789455379214671 → 200 (73ms, 862024B)
+[2026-09-15T06:56:19.335Z] GET https://ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png → 200 (259ms, 3240B)
+[2026-09-15T06:56:19.355Z] GET https://accounts.google.com/_/bscframe → 200 (78ms, 15B)
+[2026-09-15T06:56:19.479Z] GET https://accounts.google.com/generate_204?hmoynw → 204 (75ms, ?B)
