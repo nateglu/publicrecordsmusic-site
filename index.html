@@ -1201,6 +1201,10 @@ footer{border-top:2px solid rgba(232,226,210,.35);padding:26px 0 34px;position:r
     };
     window.addEventListener("scroll",onScroll,{passive:true});
     window.addEventListener("resize",onScroll,{passive:true});
+    /* late layout shifts (lazy images) can move unrevealed marks: re-check on load events too */
+    window.addEventListener("load",onScroll);
+    document.querySelectorAll("img").forEach(function(im){ im.addEventListener("load",onScroll); });
+    setTimeout(check,1500); setTimeout(check,4000);
     check();
   }
 })();
